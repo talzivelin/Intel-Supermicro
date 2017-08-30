@@ -1,0 +1,70 @@
+/* custom css file */
+
+.compare {
+	border-bottom-style: solid;
+	border-bottom-color:#C8C6C6;
+	border-bottom-width: 1px;
+}
+
+.dashed-right {
+
+    border-left: none;
+    border-right: 1px dashed #C8C6C6;
+ 
+}
+
+
+
+table.table td img.resize {
+    width: 60%;
+    height: auto;
+}
+
+table.table td {
+	
+	padding: 8px;
+}
+
+/*custom css for responsive headers */
+
+.media_medium, .media_small, .media_xsmall{
+display: none;
+width: 100%;
+}
+
+@media (max-width: 479px) {
+.media_xsmall{
+display: inherit;
+}
+
+.media_large	{
+	display:none
+}
+}
+
+@media (min-width: 480px) and (max-width: 599px) {
+.media_small{
+display: inherit;
+}
+
+.media_large	{
+	display:none
+}
+}
+
+@media (min-width: 600px) and (max-width: 758px) {
+.media_medium{
+display: inherit;
+}
+
+.media_large	{
+	display:none
+}
+}
+
+@media (min-width: 759px) {
+.media_large{
+display: inherit;
+}
+}
+
